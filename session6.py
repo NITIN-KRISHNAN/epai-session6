@@ -31,7 +31,7 @@ def create_deck_lambda():
     return deck
 
 
-def find_winner(cards1:'List of Cards dealt to player 1', cards2:'List of Cards dealt to player 1'):
+def find_winner(cards1: 'list', cards2: 'list') -> 'int':
     """
     Finds the winner of the poker game based on the cards dealt to the two player according to the calculated score
     based on the combinations_check_list.
